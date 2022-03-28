@@ -9,12 +9,5 @@ def setUp():
     print("closed amazon ")
 
 
-
-def test_AddItemtoCart(setUp):
-
-    print("added successfully")
-
-
-def test_RemoveItemfromCart(setUp):
-    print("removed successfully")
-
+def test_checkout(setUp):
+    print("payment successful")
