@@ -1,20 +1,11 @@
-import pytest
-
-@pytest.fixture()
-def setUp():
-    print("open amazon app ")
-    print("user logged in")
-    yield
-    print("logged out ")
-    print("closed amazon ")
 
 
 
-def test_AddItemtoCart(setUp):
+def test_AddItemtoCart():
 
     print("added successfully")
 
 
-def test_RemoveItemfromCart(setUp):
+def test_RemoveItemfromCart():
     print("removed successfully")
 
